@@ -26,7 +26,7 @@ int main() {
     // Check if the user's guess is the same as the correct number
     if (userNum == correctNum) {
         // Tell the user that they guessed correctly
-        std::cout << "You guessed correctly!";
+        std::cout << "You guessed correctly!" << std::endl;
     } else {
         // Tell the user that they guessed wrong
         std::cout << "You guessed wrong. ";
